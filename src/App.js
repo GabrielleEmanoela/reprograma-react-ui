@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import Routes from './routes';
 
-function App() { 
+function App() {
   return (
-    <h1>Hello World</h1>
-  );
+    <Routes />);
 }
 
 export default App;
