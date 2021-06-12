@@ -1,6 +1,6 @@
-/* eslint-disable react/react-in-jsx-scope */
+import React from 'react';
 import Bobesponja from '../service/dice';
-// import Text from './Text';
+import Text from './Title';
 import {
   Description, Name, Title, Container,
 } from './styled';
@@ -16,6 +16,7 @@ function Card() {
           <Description>{item.description}</Description>
         </Container>
       ))}
+      <Text> Aplicando o children</Text>
     </div>
 
   );
